@@ -1,10 +1,12 @@
 body{
     display: flex;
-    /* flex:1; */
+    flex:1;
     flex-direction: column;
     font-family: sans-serif;
     margin: 0;
 }
+
+/* Header is divided into 2 flex boxes */
 
 .header{
     display: flex;
@@ -14,6 +16,8 @@ body{
     padding: 10px 100px 50px 100px;
 
 }
+
+/* header top box contains 2 flex items, the flex item is a flex box */
 
 .header-top{
     display: flex;
@@ -28,7 +32,7 @@ body{
     padding: 10px;
     font-size: 18px;
 }
-
+/* header top left is a flex box that contains the logo and logo text */
 .header-top-left{
 
     display: flex;
@@ -43,7 +47,7 @@ body{
     height: 43.35px;
     max-width: 50px;
 }
-
+/* header bot contains 2 flex items, the left item is a flex box  */
 .header-bot{
     display: flex;
     flex: 1;
@@ -83,6 +87,7 @@ margin: 0;
     width: 110px;
 }
 
+/* header bot left is a flex item that contains all the text on the left and the button */
 .header-bot-left{
 display: flex;
 flex-direction: column;
@@ -90,4 +95,26 @@ width: 600px;
 gap: 15px;
 
 }
+/* Header section done */
 
+.highlight{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.highlight .headline{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.highlight .images{
+    display: flex;
+    gap: 10px;
+}
+
+.highlight img{
+
+
+}
