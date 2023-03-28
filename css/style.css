@@ -1,3 +1,4 @@
+/* body is a flex box divided into 3 sections header, highlight & inspiration */
 body{
     display: flex;
     flex:1;
@@ -73,6 +74,7 @@ margin: 0;
 .header-bot > img{
     max-width: 400px;
     height: 267.05px;
+    border-radius: 4px;
 }
 
 .header-bot button{
@@ -97,24 +99,51 @@ gap: 15px;
 }
 /* Header section done */
 
+
+/* highlight is divided into 2 flex boxes, headline & images*/
+
 .highlight{
     display: flex;
     flex-direction: column;
     flex: 1;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .highlight .headline{
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 }
+/* images is a flex box containing 4 story classes */
 
 .highlight .images{
     display: flex;
-    gap: 10px;
+    gap: 70px;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+    /* width: 600px; */
+}
+/* each story class is a flex box containing the image and the text under it STILL NEEDS ALIGNMENT */
+
+.highlight .story{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 350px;
 }
 
 .highlight img{
 
-
+    width: auto;
+    height: 200px;
+    border: 2px solid #4c05ef;
+    border-radius: 4px;
 }
