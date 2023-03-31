@@ -147,3 +147,20 @@ gap: 15px;
     border: 2px solid #4c05ef;
     border-radius: 4px;
 }
+
+.inspiration{
+    margin: auto;
+    padding: 100px 200px;
+    background-color: #e5e7eb;
+    font-size: 30px;
+    color: #1f2937
+}
+
+.inspiration h3{
+    font-size: 22px;
+    padding-right: 25px;
+    font-weight: 800;
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-end;
+}
