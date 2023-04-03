@@ -108,6 +108,7 @@ gap: 15px;
     flex: 1;
     gap: 20px;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .highlight .headline{
@@ -147,6 +148,8 @@ gap: 15px;
     border: 2px solid #4c05ef;
     border-radius: 4px;
 }
+/* end of highlight section */
+
 
 .inspiration{
     margin: auto;
@@ -165,6 +168,9 @@ gap: 15px;
     justify-content: flex-end;
 }
 
+/* end of inspiration section */
+
+/* call class is a flex box divided into call-left and button */
 .call {
     display: flex;
     justify-content: center;
@@ -191,3 +197,5 @@ gap: 15px;
     font-weight: bold;
 
 }
+
+/* end */
